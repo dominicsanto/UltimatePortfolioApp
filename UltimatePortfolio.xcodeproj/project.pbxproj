@@ -12,6 +12,8 @@
 		CC1BD44E2563A1A100262EE0 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1BD44D2563A1A100262EE0 /* ProjectsView.swift */; };
 		CC6816E42563C558003C105B /* Item-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6816E32563C558003C105B /* Item-CoreDataHelpers.swift */; };
 		CC6816E72563C6B6003C105B /* Project-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6816E62563C6B6003C105B /* Project-CoreDataHelpers.swift */; };
+		CC6816EA256B8CD6003C105B /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6816E9256B8CD6003C105B /* EditItemView.swift */; };
+		CC6816ED256BEDC2003C105B /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6816EC256BEDC2003C105B /* ItemRowView.swift */; };
 		CCC8D1152562C9B7003B1010 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC8D1142562C9B7003B1010 /* DataController.swift */; };
 		CCFCFC3B25617B850015659A /* UltimatePortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFCFC3A25617B850015659A /* UltimatePortfolioApp.swift */; };
 		CCFCFC3D25617B850015659A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFCFC3C25617B850015659A /* ContentView.swift */; };
@@ -25,6 +27,8 @@
 		CC1BD44D2563A1A100262EE0 /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
 		CC6816E32563C558003C105B /* Item-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		CC6816E62563C6B6003C105B /* Project-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		CC6816E9256B8CD6003C105B /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
+		CC6816EC256BEDC2003C105B /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
 		CCC8D1142562C9B7003B1010 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		CCC8D118256394CE003B1010 /* UltimatePortfolio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UltimatePortfolio.entitlements; sourceTree = "<group>"; };
 		CCFCFC3725617B850015659A /* UltimatePortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltimatePortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,7 +81,9 @@
 				CCFCFC3A25617B850015659A /* UltimatePortfolioApp.swift */,
 				CC1BD44A25639C4200262EE0 /* HomeView.swift */,
 				CC1BD44D2563A1A100262EE0 /* ProjectsView.swift */,
+				CC6816EC256BEDC2003C105B /* ItemRowView.swift */,
 				CCFCFC3C25617B850015659A /* ContentView.swift */,
+				CC6816E9256B8CD6003C105B /* EditItemView.swift */,
 				CC0A3118256252C2000E81CF /* Main.xcdatamodeld */,
 				CCFCFC3E25617B880015659A /* Assets.xcassets */,
 				CCFCFC4325617B880015659A /* Info.plist */,
@@ -170,10 +176,12 @@
 				CC0A311A256252C2000E81CF /* Main.xcdatamodeld in Sources */,
 				CC6816E72563C6B6003C105B /* Project-CoreDataHelpers.swift in Sources */,
 				CCC8D1152562C9B7003B1010 /* DataController.swift in Sources */,
+				CC6816ED256BEDC2003C105B /* ItemRowView.swift in Sources */,
 				CCFCFC3D25617B850015659A /* ContentView.swift in Sources */,
 				CC1BD44B25639C4200262EE0 /* HomeView.swift in Sources */,
 				CCFCFC3B25617B850015659A /* UltimatePortfolioApp.swift in Sources */,
 				CC6816E42563C558003C105B /* Item-CoreDataHelpers.swift in Sources */,
+				CC6816EA256B8CD6003C105B /* EditItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
