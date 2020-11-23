@@ -10,6 +10,8 @@
 		CC0A311A256252C2000E81CF /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC0A3118256252C2000E81CF /* Main.xcdatamodeld */; };
 		CC1BD44B25639C4200262EE0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1BD44A25639C4200262EE0 /* HomeView.swift */; };
 		CC1BD44E2563A1A100262EE0 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1BD44D2563A1A100262EE0 /* ProjectsView.swift */; };
+		CC6816E42563C558003C105B /* Item-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6816E32563C558003C105B /* Item-CoreDataHelpers.swift */; };
+		CC6816E72563C6B6003C105B /* Project-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6816E62563C6B6003C105B /* Project-CoreDataHelpers.swift */; };
 		CCC8D1152562C9B7003B1010 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC8D1142562C9B7003B1010 /* DataController.swift */; };
 		CCFCFC3B25617B850015659A /* UltimatePortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFCFC3A25617B850015659A /* UltimatePortfolioApp.swift */; };
 		CCFCFC3D25617B850015659A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFCFC3C25617B850015659A /* ContentView.swift */; };
@@ -21,6 +23,8 @@
 		CC0A3119256252C2000E81CF /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
 		CC1BD44A25639C4200262EE0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		CC1BD44D2563A1A100262EE0 /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
+		CC6816E32563C558003C105B /* Item-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		CC6816E62563C6B6003C105B /* Project-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		CCC8D1142562C9B7003B1010 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		CCC8D118256394CE003B1010 /* UltimatePortfolio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UltimatePortfolio.entitlements; sourceTree = "<group>"; };
 		CCFCFC3725617B850015659A /* UltimatePortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltimatePortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +83,8 @@
 				CCFCFC4325617B880015659A /* Info.plist */,
 				CCFCFC4025617B880015659A /* Preview Content */,
 				CCC8D1142562C9B7003B1010 /* DataController.swift */,
+				CC6816E32563C558003C105B /* Item-CoreDataHelpers.swift */,
+				CC6816E62563C6B6003C105B /* Project-CoreDataHelpers.swift */,
 			);
 			path = UltimatePortfolio;
 			sourceTree = "<group>";
@@ -162,10 +168,12 @@
 			files = (
 				CC1BD44E2563A1A100262EE0 /* ProjectsView.swift in Sources */,
 				CC0A311A256252C2000E81CF /* Main.xcdatamodeld in Sources */,
+				CC6816E72563C6B6003C105B /* Project-CoreDataHelpers.swift in Sources */,
 				CCC8D1152562C9B7003B1010 /* DataController.swift in Sources */,
 				CCFCFC3D25617B850015659A /* ContentView.swift in Sources */,
 				CC1BD44B25639C4200262EE0 /* HomeView.swift in Sources */,
 				CCFCFC3B25617B850015659A /* UltimatePortfolioApp.swift in Sources */,
+				CC6816E42563C558003C105B /* Item-CoreDataHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
