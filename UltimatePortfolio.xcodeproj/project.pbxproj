@@ -17,6 +17,7 @@
 		CC6816F0256BF06C003C105B /* Binding-OnChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6816EF256BF06C003C105B /* Binding-OnChange.swift */; };
 		CC6816F3256BF817003C105B /* ProjectHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6816F2256BF817003C105B /* ProjectHeaderView.swift */; };
 		CC6816F6256BFBC2003C105B /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC6816F5256BFBC2003C105B /* Colors.xcassets */; };
+		CC6816F9256BFCB1003C105B /* EditProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6816F8256BFCB1003C105B /* EditProjectView.swift */; };
 		CCC8D1152562C9B7003B1010 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC8D1142562C9B7003B1010 /* DataController.swift */; };
 		CCFCFC3B25617B850015659A /* UltimatePortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFCFC3A25617B850015659A /* UltimatePortfolioApp.swift */; };
 		CCFCFC3D25617B850015659A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFCFC3C25617B850015659A /* ContentView.swift */; };
@@ -35,6 +36,7 @@
 		CC6816EF256BF06C003C105B /* Binding-OnChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding-OnChange.swift"; sourceTree = "<group>"; };
 		CC6816F2256BF817003C105B /* ProjectHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectHeaderView.swift; sourceTree = "<group>"; };
 		CC6816F5256BFBC2003C105B /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		CC6816F8256BFCB1003C105B /* EditProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProjectView.swift; sourceTree = "<group>"; };
 		CCC8D1142562C9B7003B1010 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		CCC8D118256394CE003B1010 /* UltimatePortfolio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UltimatePortfolio.entitlements; sourceTree = "<group>"; };
 		CCFCFC3725617B850015659A /* UltimatePortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltimatePortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,6 +94,7 @@
 				CC6816E9256B8CD6003C105B /* EditItemView.swift */,
 				CC6816F2256BF817003C105B /* ProjectHeaderView.swift */,
 				CC6816F5256BFBC2003C105B /* Colors.xcassets */,
+				CC6816F8256BFCB1003C105B /* EditProjectView.swift */,
 				CC6816EF256BF06C003C105B /* Binding-OnChange.swift */,
 				CC0A3118256252C2000E81CF /* Main.xcdatamodeld */,
 				CCFCFC3E25617B880015659A /* Assets.xcassets */,
@@ -186,6 +189,7 @@
 				CC6816F3256BF817003C105B /* ProjectHeaderView.swift in Sources */,
 				CC0A311A256252C2000E81CF /* Main.xcdatamodeld in Sources */,
 				CC6816E72563C6B6003C105B /* Project-CoreDataHelpers.swift in Sources */,
+				CC6816F9256BFCB1003C105B /* EditProjectView.swift in Sources */,
 				CCC8D1152562C9B7003B1010 /* DataController.swift in Sources */,
 				CC6816ED256BEDC2003C105B /* ItemRowView.swift in Sources */,
 				CCFCFC3D25617B850015659A /* ContentView.swift in Sources */,
